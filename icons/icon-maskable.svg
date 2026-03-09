@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- Full bleed soil background (maskable icons need full fill) -->
+  <rect width="192" height="192" fill="#6b4226"/>
+
+  <!-- Raised bed body (shifted inward for safe zone) -->
+  <rect x="34" y="112" width="124" height="46" rx="9" fill="#8b5e3c"/>
+  <line x1="75" y1="112" x2="75" y2="158" stroke="#6b4226" stroke-width="2"/>
+  <line x1="117" y1="112" x2="117" y2="158" stroke="#6b4226" stroke-width="2"/>
+
+  <!-- Stems -->
+  <line x1="54"  y1="112" x2="54"  y2="76" stroke="#4a7c59" stroke-width="4" stroke-linecap="round"/>
+  <line x1="96"  y1="112" x2="96"  y2="68" stroke="#4a7c59" stroke-width="4" stroke-linecap="round"/>
+  <line x1="138" y1="112" x2="138" y2="76" stroke="#4a7c59" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Leaves left -->
+  <ellipse cx="42" cy="85"  rx="11" ry="6" transform="rotate(-30 42 85)"  fill="#4a7c59"/>
+  <ellipse cx="66" cy="80"  rx="11" ry="6" transform="rotate(30 66 80)"   fill="#4a7c59"/>
+  <!-- Leaves centre -->
+  <ellipse cx="84" cy="78"  rx="11" ry="6" transform="rotate(-30 84 78)"  fill="#6ab04c"/>
+  <ellipse cx="108" cy="72" rx="11" ry="6" transform="rotate(30 108 72)"  fill="#6ab04c"/>
+  <!-- Leaves right -->
+  <ellipse cx="126" cy="85" rx="11" ry="6" transform="rotate(-30 126 85)" fill="#4a7c59"/>
+  <ellipse cx="150" cy="80" rx="11" ry="6" transform="rotate(30 150 80)"  fill="#4a7c59"/>
+
+  <!-- Sun -->
+  <circle cx="54" cy="42" r="14" fill="#f5c842"/>
+  <g stroke="#f5c842" stroke-width="2.5" stroke-linecap="round">
+    <line x1="54" y1="22" x2="54" y2="17"/>
+    <line x1="54" y1="67" x2="54" y2="62"/>
+    <line x1="34" y1="42" x2="29" y2="42"/>
+    <line x1="79" y1="42" x2="74" y2="42"/>
+    <line x1="40" y1="28" x2="36" y2="24"/>
+    <line x1="72" y1="60" x2="68" y2="56"/>
+    <line x1="68" y1="28" x2="72" y2="24"/>
+    <line x1="36" y1="60" x2="40" y2="56"/>
+  </g>
+</svg>
