@@ -1,0 +1,37 @@
+{
+  "name": "Raised Bed Planner",
+  "short_name": "Garden Planner",
+  "description": "Plan your 4×4 raised bed garden with zone-aware scoring, 20 crops, and live planting feedback.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#6b4226",
+  "theme_color": "#6b4226",
+  "categories": ["lifestyle", "utilities"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-base.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Auto-fill my bed",
+      "short_name": "Auto-fill",
+      "description": "Open the planner and auto-fill with a recommended layout",
+      "url": "./index.html?action=autofill",
+      "icons": [{ "src": "icons/icon-base.svg", "sizes": "any" }]
+    }
+  ]
+}
